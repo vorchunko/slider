@@ -7,6 +7,8 @@ body * {
     box-sizing: border-box;
 }
 
+
+
 .button {
 background: #E3B873;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -56,7 +58,7 @@ text-transform: uppercase;
     color: white;
 }
 
-.main-back-img {
+.main-section {
     background-image: url(/image/image1.jpg);
     background-size: cover;
     height: 707px;
@@ -64,7 +66,11 @@ text-transform: uppercase;
     position: relative;
 }
 
-.hero-overlay {
+.img-main {
+    position: relative;
+    z-index: 1;}
+
+.main-overlay {
     content: '';
     position: absolute;
     top: 0;
@@ -74,18 +80,46 @@ text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.hero-container {
-    position: relative;
-    z-index: 1;
-}
-
 .title {
-    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
 font-size: 40px;
 line-height: 53px;
 text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+
+.text-main p {
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+
 
 color: #FFFFFF;
+}
+
+.text-main {
+    padding-left: 134px;
+    
+}
+
+.submit {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.0);
+
+}
+
+h1 span {
+    color: #E3B873;
+}
+
+.text-main p {
+    margin-top: -20px;
 }
