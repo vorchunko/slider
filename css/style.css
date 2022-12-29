@@ -21,13 +21,19 @@ text-transform: uppercase;
 }
 
 .logo {
-    color:#E3B873;
-    
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+text-transform: uppercase;
+
+color: #E3B873;
 }
 
 .header {
     background-color: black;
-    
+    height: 83px;
 }
 
 .container {
@@ -50,7 +56,26 @@ text-transform: uppercase;
 
 .header-nav_item {
     margin-right: 47px;
-    
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+
+.tel a {
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+text-align: right;
+text-decoration-line: underline;
+
+color: #E3B873;
+
 }
 
 .header-nav_item a {
@@ -124,24 +149,18 @@ h1 span {
     margin-top: -20px;
 }
 
-.page-2-nav {
+.page2-background{
     background-color: #131313;
     Height: 1074px;
 }
-.page2-nav {
-display: flex;
-justify-content: right;
-height: 83px;
-align-items: center; }
 
-.page2-nav_item {
-    margin-right: 60px;
-    list-style: none;
-    margin-top: 107px;
-    }
+.main-block-center {
+    max-width: 1171px;
+    margin: auto;
+}
 
-.page2-nav_item a {
-    font-family: 'Yeseva One';
+.center-nav a {
+font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -159,9 +178,10 @@ color: rgba(255, 255, 255, 0.3);
     line-height: 19px;
     text-transform: uppercase;
     color: #E3B873;
+    
 }
 
-.left-block h1 {
+.left-block-h1 {
 font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
@@ -171,6 +191,7 @@ letter-spacing: -0.07em;
 text-transform: uppercase;
 
 color: #E3B873;
+margin-bottom: 34px;
 }
 
 .plus-h1 {
@@ -189,8 +210,12 @@ font-style: normal;
 font-weight: 400;
 font-size: 13px;
 line-height: 21px;
-
 color: #FFFFFF;
+
+}
+
+.left-block-p {
+    margin-bottom: 42px;
 }
 
 .left-block h2 {
@@ -204,30 +229,121 @@ text-transform: uppercase;
 color: #E3B873;
 }
 
-.page-2-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.page2-back {
+    background-color: #131313;
+    height: 1074px;
+
 }
 
-.rigth-block {
-    margin-left: 134px;
+.center-block{
+    max-width: 1171px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.center-nav {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.center-nav li {
+    margin-right: 60px;
+    list-style: none;
+}
+
+.left-rigth-block {
+    display: flex;
     margin-top: 50px;
+    justify-content: space-between;
 }
 
-.three {
-    margin-right: 194px;
+.img-room {
+height: 482px;
+width: 679px;
 }
 
-.left-block-row1 {
-    display: flex;
-    flex-direction: column;
+.left-block {
+    max-width: 442px;
+    justify-content: left;
 }
 
 .left-block-tabl {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
+.arrow-block {
+    display: flex;
+    justify-content: left;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.circle {
+    margin-left: 16px;
+}
+
+.arrow-r {
+    margin-left: 16px;
+}
+
+.online {
+    font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 92px;
+}
+
+.camera-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.camera-img img {
+    margin-right: 7px;
+}
+
+.video-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+    position: relative;
+}
+
+.video-center:after{
+content: '';
+height: 434px;
+width: 817px;
+position: absolute;
+background-color: rgba(0,0,0,0.8);
+}
+
+.line-center {
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+    }
+
+.rewiew-center {
+    max-width: 681px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 37px;
+text-align: center;
+color: #363636;
+margin-top: 20px;
+}
