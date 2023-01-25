@@ -32,6 +32,8 @@ color: #E3B873;
 .header {
 background-color: black;
 height: 83px;
+margin: 0 auto;
+max-width: 1263px;
 }
 
 .container {
@@ -44,11 +46,13 @@ display: flex;
 justify-content: space-between;
 height: 83px;
 align-items: center;
+
 }
 
 .header-nav {
 list-style: none;
 display: flex;
+
 }
 
 .header-nav_item {
@@ -83,6 +87,8 @@ background-size: cover;
 height: 707px;
 padding-top: 194px;
 position: relative;
+margin: 0 auto;
+max-width: 1263px;
 }
 
 .img-main {
@@ -215,6 +221,8 @@ color: #E3B873;
 .page2-back {
 background-color: #131313;
 height: 1074px;
+margin: 0 auto;
+max-width: 1263px;
 }
 
 .center-block{
@@ -301,6 +309,8 @@ background: url(/image/video.png) center/cover no-repeat ;
 height: 434px;
 width: 817px;
 position: relative;
+margin: 0 auto;
+max-width: 1263px;
 }
 
 .video {
@@ -348,6 +358,8 @@ margin-top: 20px;
 }
 
 .input-block {
+    margin: 0 auto;
+max-width: 1263px;
 display: flex;
 align-items: center;
 justify-content: space-around;
@@ -402,6 +414,8 @@ color: #181818;
 }
 
 .types-center {
+    margin: 0 auto;
+max-width: 1263px;
 display: flex;
 justify-content: center;
 margin-top: 55px;
@@ -426,6 +440,8 @@ margin-right: 7px;
 }
 
 .room-block {
+    margin: 0 auto;
+max-width: 1300px;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -510,6 +526,8 @@ margin-top: 59px;
 }
 
 .page3-top {
+    margin: 0 auto;
+max-width: 1263px;
 display: flex;
 justify-content: space-between;
 margin-top: 100px;
@@ -576,7 +594,7 @@ margin-top: 49px;
 
 #circle {
 margin-top: 102px;
-margin-left: -412px;
+margin-left: -512px;
 z-index: 3;
 height: 42px;
 width: 42px;
@@ -584,7 +602,7 @@ background: #E3B873;
 border: 8px solid #FFFFFF;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
 border-radius: 30px;
-display: flex;
+
 }
 
 .page3-top-left {
@@ -604,7 +622,7 @@ color: #FFFFFF;
 
 .circle-text {
 margin-top: 95px;
-margin-left: -360px;
+margin-left: -460px;
 }
 
 .circle-text p {
@@ -671,9 +689,12 @@ color: #E3B873;
 background-image: url(/image/page4/page4-back.png) ;
 background-repeat: no-repeat;
 background-position-x: center;
+margin: 0 auto;
+max-width: 1263px;
 margin-top: 254px;
 display: flex;
 justify-content: space-between;
+
 }
 
 .page4-right-block{
@@ -750,6 +771,8 @@ color: #363636;
 }
 
 .clients {
+    margin: 0 auto;
+max-width: 1263px;
 display: flex;
 justify-content: space-around;
 margin-top: 39px;
@@ -805,6 +828,8 @@ display: flex;
 justify-content: center;
 }
 .quest-back {
+    margin: 0 auto;
+max-width: 1263px;
 background:#131313;
 margin-top: 131px;
 height: 445px;
@@ -898,6 +923,8 @@ border-radius: 0%;
 }
 
 .back-map {
+    margin: 0 auto;
+max-width: 1263px;
 color: #fff;
 background:  url(/image/page4/back.jpg) center/cover no-repeat #3b434c;
 height: 953px;
@@ -951,11 +978,14 @@ margin-top: 20px;
 .footer {
 background-color: black;
 height: 83px;
+margin: 0 auto;
+max-width: 1263px;
 }
 
 
 
 .footer-content {
+    
 display: flex;
 justify-content: space-between;
 height: 83px;
