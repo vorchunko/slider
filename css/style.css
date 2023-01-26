@@ -93,7 +93,15 @@ max-width: 1263px;
 
 .img-main {
 position: relative;
-z-index: 1;}
+z-index: 1;
+max-width: 100%;
+}
+
+.img-main img {
+    width: 100%;
+    height: auto;
+}
+
 
 .main-overlay {
 content: '';
@@ -531,6 +539,7 @@ max-width: 1263px;
 display: flex;
 justify-content: space-between;
 margin-top: 100px;
+flex-wrap: wrap;
 }
 
 .page3-form input {
@@ -772,10 +781,11 @@ color: #363636;
 
 .clients {
     margin: 0 auto;
-max-width: 1263px;
+max-width: 1300px;
 display: flex;
 justify-content: space-around;
 margin-top: 39px;
+flex-wrap: wrap;
 }
 
 .maria {
@@ -973,7 +983,15 @@ margin-right: 15px
 display: flex;
 justify-content: center;
 margin-top: 20px;
+max-width: 100%;
+
+position:relative;
 }
+
+.map img {
+    max-width: 100%;
+    height: auto;}
+
 
 .footer {
 background-color: black;
@@ -1025,33 +1043,68 @@ text-decoration: none;
 color: white;
 }
 
-@media (max-width: 1880px) {
-    .button-block {
-    margin-left: 280px;
-    }
-}
-@media (max-width: 1450px) { 
-    .header-content {
-    justify-content: space-around; }
+@media (max-width: 1068px) { 
 
-    .footer-content {
-    justify-content: space-around; 
+    .container {
+        justify-content: space-evenly;
+
     }
 
-    .button-block {
-    margin-left: 0px;
-    }
+    .header-nav_item {
+        margin-right: 17px;}
 
-    .page3-form {
-    margin-right: 50px;
- }
+        .footer-nav_item {
+            margin-right: 17px;}
 
+            .page4-block2 {
+                display: none;
+            }
 }
 
-/* @media (max-wiith: 1288px)
-{
+@media (max-width: 986px) {
     .img-room {
+        display: none;
+    }
+
+}
+
+@media (max-width: 886px) {
+    nav {
+        display: none;
+    }
+}
+
+@media (max-width: 1272px){
+    .photo-clients {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 1206px) {
+    .page4-list-left li{
         
-        width: 100%;
-        }
-} */
+font-size: 17px;
+line-height: 38px;
+list-style: none;
+
+margin-bottom: 10px;
+margin-left: 10px;
+    }
+}
+
+@media (max-width: 1076px) {
+    .page4-list-left li{
+        
+font-size: 17px;
+line-height: 38px;
+list-style: none;
+
+margin-bottom: 5px;
+margin-left: 10px;
+    }
+}
+
+@media (max-width: 760px ) {
+
+}
+.quest-back
